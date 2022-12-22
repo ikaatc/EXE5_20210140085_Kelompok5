@@ -60,10 +60,14 @@ namespace EXE5_20210140085_Kelompok5
                 Console.WriteLine(Display.name);
         }
     }
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            Queue q = new Queue();
+            char ch;
+            while(true)
+            { }
         }
     }
 }
