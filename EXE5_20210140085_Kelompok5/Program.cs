@@ -14,6 +14,11 @@ namespace EXE5_20210140085_Kelompok5
     class Queue
     {
         Node ika, tania;
+        public Queue()
+        {
+            ika = null;
+            tania = null;
+        }
     }
     internal class Program
     {
