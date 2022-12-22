@@ -79,7 +79,30 @@ namespace EXE5_20210140085_Kelompok5
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
                     switch (ch)
-                    { }
+                    {
+                        case '1':
+                            {
+                                q.Insert();
+                            }
+                            break;
+                        case '2':
+                            {
+                                q.Delete();
+                            }
+                            break;
+                        case '3':
+                            {
+                                q.Display();
+                            }
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid option!");
+                            }
+                            break;
+                    }
                 }
                 catch (Exception e)
                 { }
