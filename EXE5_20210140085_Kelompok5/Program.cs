@@ -11,6 +11,10 @@ namespace EXE5_20210140085_Kelompok5
         public string name;
         public Node next;
     }
+    class Queue
+    {
+        Node ika, tania;
+    }
     internal class Program
     {
         static void Main(string[] args)
