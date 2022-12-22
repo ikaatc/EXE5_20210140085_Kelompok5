@@ -36,6 +36,17 @@ namespace EXE5_20210140085_Kelompok5
             tania.next = newnode;
             tania = newnode;
         }
+        public void Delete()
+        {
+            if (ika == null)
+            {
+                Console.WriteLine("Queue is Empty!");
+                return;
+            }
+            ika = ika.next;
+            if (ika == null)
+                tania = null;
+        }
     }
     internal class Program
     {
