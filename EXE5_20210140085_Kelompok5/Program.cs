@@ -67,7 +67,14 @@ namespace EXE5_20210140085_Kelompok5
             Queue q = new Queue();
             char ch;
             while(true)
-            { }
+            {
+                try
+                {
+
+                }
+                catch (Exception e)
+                { }
+            }
         }
     }
 }
