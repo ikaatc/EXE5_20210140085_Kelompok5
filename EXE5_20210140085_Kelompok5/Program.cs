@@ -105,7 +105,9 @@ namespace EXE5_20210140085_Kelompok5
                     }
                 }
                 catch (Exception e)
-                { }
+                {
+                    Console.WriteLine("Check for the values entered");
+                }
             }
         }
     }
